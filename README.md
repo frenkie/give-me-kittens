@@ -21,6 +21,11 @@ Check out the [document.querySelectorAll](https://developer.mozilla.org/en-US/do
 
 ## examples
 
-### http://nu.nl
+### [facebook](https://www.facebook.com/)
+Just a simple
+`giveMeKittens('img');`
+will do the trick
+
+### [nu.nl](http://nu.nl)
 A Dutch news website
-`giveMeKittens( 'img[xtclib], .image img, .trackevent img, iframe[id^=scr_]' );`
+`giveMeKittens('img[xtclib], .image img, .trackevent img, iframe[id^=scr_]');`
