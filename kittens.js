@@ -4,7 +4,7 @@
  * @param {Object} [dimensionsThreshold] Optional minimal dimensions before
  *                  elements are kittenized, defaults to width and height of 50px
  *      @param {Number} [dimensionsThreshold.width]
- *      @param {Number} [dimensionsThreshold.width]
+ *      @param {Number} [dimensionsThreshold.height]
  */
 var giveMeKittens = function ( selector, dimensionsThreshold ) {
 

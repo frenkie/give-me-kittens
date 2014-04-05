@@ -12,8 +12,8 @@ tada, instant kittens!
      * @param {String} selector a document.querySelectorAll valid selector string
      * @param {Object} [dimensionsThreshold] Optional minimal dimensions before
      *                  elements are kittenized, defaults to width and height of 50px
-     *      @param {Number} [dimensionsThreshold.width]
-     *      @param {Number} [dimensionsThreshold.width]
+     *      @param {Number} [dimensionsThreshold.width] in pixels
+     *      @param {Number} [dimensionsThreshold.height] in pixels
      */
     function giveMeKittens( selector, dimensionsThreshold )
 
