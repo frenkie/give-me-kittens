@@ -22,8 +22,8 @@ var giveMeKittens = function ( selector, dimensionsThreshold ) {
             height: element.clientHeight
         };
 
-        if ( dimensions.width > dimensionsThreshold.width &&
-             dimensions.height > dimensionsThreshold.height
+        if ( dimensions.width >= dimensionsThreshold.width &&
+             dimensions.height >= dimensionsThreshold.height
            ) {
 
             imageUrl = 'http://placekitten.com/'+
