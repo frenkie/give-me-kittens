@@ -29,3 +29,6 @@ will do the trick
 ### [nu.nl](http://nu.nl)
 A Dutch news website
 `giveMeKittens('img[xtclib], .image img, .trackevent img, iframe[id^=scr_]');`
+
+## acknowledgements
+This script uses the ever so clever service offered by Mark James, [placekitten.com](http://placekitten.com). Thanks!
