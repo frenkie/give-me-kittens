@@ -42,11 +42,13 @@ var giveMeKittens = function ( selector, dimensionsThreshold ) {
                     break;
 
                 case 'hr':
-                    // oh noes kittens
                     throw Error( 'oh noes kittens for your '+ tagName );
                     break;
 
                 default:
+                    if ( element.style.display == 'inline' ) {
+                        element.style.display = 'inline-block';
+                    }
                     element.style.width = dimensions.width +'px';
                     element.style.height = dimensions.height +'px';
                     element.style.backgroundImage = 'url("'+ imageUrl +'")';
